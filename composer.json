@@ -1,0 +1,28 @@
+{
+  "name": "black-lamp/yii2-preorder",
+  "description": "Preorder extension for the Yii framework",
+  "keywords": ["yii2", "preorder"],
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Sluysarenko Maxim",
+      "email": "waspmax1@gmail.com"
+    },
+    {
+      "name": "Gutsulyak Vadim",
+      "email": "guts.vadimq@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-bootstrap": "*",
+
+    "yii2tech/ar-position": "*",
+  },
+  "autoload": {
+    "psr-4": {
+      "bl\\preorder\\": ""
+    }
+  }
+}
