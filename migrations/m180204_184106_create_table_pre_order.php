@@ -16,7 +16,7 @@ class m180204_184106_create_table_pre_order extends Migration
     {
         $this->createTable('preorder', [
             'id' =>  $this->string(),
-            'phone_number' => $this->integer(),
+            'phone_number' => $this->string(),
             'description' => $this->string(),
             'created_at'=> 'timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP',
             'updated_at'=>$this->timestamp()
