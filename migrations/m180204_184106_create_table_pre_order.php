@@ -15,8 +15,8 @@ class m180204_184106_create_table_pre_order extends Migration
     public function safeUp()
     {
         $this->createTable('preorder', [
-            'id' =>  $this->primaryKey(),
-            'phone_number' => $this->smallInteger(),
+            'id' =>  $this->string(),
+            'phone_number' => $this->integer(),
             'description' => $this->string(),
             'created_at'=> 'timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP',
             'updated_at'=>$this->timestamp()
