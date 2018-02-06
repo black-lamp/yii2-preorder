@@ -2,9 +2,10 @@
 
 namespace bl\preorder\common\models;
 
-use Yii;
 
 /**
+ * @author Maxim Sluysarenko <waspmax1@gmail.com>
+ *
  * This is the model class for table "preorder".
  *
  * @property int $id
