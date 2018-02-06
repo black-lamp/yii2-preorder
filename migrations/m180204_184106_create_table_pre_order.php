@@ -4,6 +4,7 @@ use yii\db\Migration;
 
 
 /**
+ * @author Maxim Sluysarenko <waspmax1@gmail.com>
  * Class m180204_184106_create_table_pre_order
  */
 class m180204_184106_create_table_pre_order extends Migration
@@ -16,7 +17,7 @@ class m180204_184106_create_table_pre_order extends Migration
     {
         $this->createTable('preorder', [
             'id' =>  $this->string(),
-            'phone_number' => $this->string(),
+            'phone_number' => $this->integer(),
             'description' => $this->string(),
             'created_at'=> 'timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP',
             'updated_at'=>$this->timestamp()
